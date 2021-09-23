@@ -5,3 +5,5 @@ sudo yum upgrade
 sudo yum install epel-release java-11-openjdk-devel
 sudo yum install jenkins
 sudo systemctl daemon-reload
+yum install java-1.8.0
+sudo yum remove java-1.7.0-openjdk
